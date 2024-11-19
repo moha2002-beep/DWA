@@ -4,7 +4,7 @@ const app = express();
 const port = 8081;
 
 // Load the route handlers
-const mainRoutes = require("./routes/main");  
+const mainRoutes = require("../routes/main");  
 app.use('/', mainRoutes);
 
 // Start listening for HTTP requests
